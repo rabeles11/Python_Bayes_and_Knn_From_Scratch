@@ -73,6 +73,8 @@ def knn_30_results(dataset, od, do):
 """
 Zde se volá metoda na Knn -> Číslo datasetu, začátek dat, konec dat -> tj -> 0,3010,3020 vezme první dataset a jeho
 data od 3010 do 3020
+
+Omezení dat je zde zvoleno proto, že by projít všechny datasety, bylo časově náročné tj okolo 16h!!!
 """
 knn_30_results(0, 3010, 3020)
 
